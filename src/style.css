@@ -1,0 +1,82 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700;900&family=Roboto:wght@400;700&display=swap");
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/fontawesome.min.css");
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css");
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background-image: linear-gradient(to left, #000, #980a0a);
+  padding: 2rem 8.875rem 8.875rem;
+}
+
+:root {
+  font-family: "Roboto";
+  font-size: 16px;
+}
+
+.navbar {
+  padding-bottom: 8.875rem;
+  display: grid;
+  grid-template-columns: 1fr 9fr;
+  text-transform: uppercase;
+  font-weight: 600;
+  color: #fff;
+}
+
+.navbar__links {
+  display: flex;
+  column-gap: 3rem;
+  justify-self: end;
+  list-style-type: none;
+}
+
+.navbar__links a {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.navbar__links a:hover {
+  color: #ac9797;
+}
+
+.personal__container {
+  height: 90vh;
+  background: #fff;
+  display: grid;
+  grid-template-columns: 4fr 2fr;
+  border-radius: 0.625rem;
+}
+
+.personal__image {
+  height: 90vh;
+  padding: 1.68rem;
+  border-radius: 0.625rem;
+}
+.personal__info {
+  padding-top: 6.4375rem;
+  padding-right: 2.625rem;
+}
+.personal__contacts__container {
+  display: grid;
+  padding-top: 3.125rem;
+}
+.personal__contacts__container span {
+  display: grid;
+  grid-template-columns: min-content auto;
+  column-gap: 1rem;
+  padding-bottom: 1rem;
+}
+
+.personal__socialmedia__container {
+  padding-top: 3.125rem;
+  display: grid;
+  grid-template-columns: min-content min-content min-content;
+  column-gap: 1rem;
+}
+.bottom {
+  z-index: 1;
+  background-color: #fff;
+}
